@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class PostApiController {
 
-    @PostMapping("/post")
+    @PostMapping("/post") // 리소스 생성, 추가
     public void post(@RequestBody PostRequestDto requestData) {
 //        requestData.forEach((key, value) -> {
 //            System.out.println("key : " + key);
